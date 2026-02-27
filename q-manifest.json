@@ -1,6 +1,6 @@
 {
 	"version": "1",
-	"manifestHash": "620d2b",
+	"manifestHash": "cm3dp1",
 	"options": {
 		"target": "client",
 		"buildMode": "production",
@@ -8,9 +8,9 @@
 			"type": "smart"
 		}
 	},
-	"core": "..\\assets\\core.min-BPS5Icob.js",
+	"core": "..\\assets\\core.min-BRi22XDv.js",
 	"preloader": "..\\assets\\preloader-Bns9QiKi.js",
-	"bundleGraphAsset": "assets/bundle-graph-Dh0o6Nwt.json",
+	"bundleGraphAsset": "assets/bundle-graph-I3XQvHTp.json",
 	"injections": [
 		{
 			"tag": "style",
@@ -22,19 +22,14 @@
 		}
 	],
 	"mapping": {
-		"s_WLgS20WdhAI": "..\\assets\\app.tsx_App_component_Fragment_div_button_onClick_WLgS20WdhAI-C22kjNTD.js",
-		"s_AkbU84a8zes": "..\\assets\\app.tsx_App_component_AkbU84a8zes-KkQ2dMKx.js"
+		"s_AkbU84a8zes": "..\\assets\\app.tsx_App_component_AkbU84a8zes-B6s2oras.js"
 	},
 	"bundles": {
-		"..\\assets\\app.tsx_App_component_AkbU84a8zes-KkQ2dMKx.js": {
-			"size": 2220,
-			"total": 49428,
+		"..\\assets\\app.tsx_App_component_AkbU84a8zes-B6s2oras.js": {
+			"size": 2115,
+			"total": 47850,
 			"imports": [
-				"..\\assets\\core.min-BPS5Icob.js",
-				"..\\assets\\preload-helper-CVfkMyKi.js"
-			],
-			"dynamicImports": [
-				"..\\assets\\app.tsx_App_component_Fragment_div_button_onClick_WLgS20WdhAI-C22kjNTD.js"
+				"..\\assets\\core.min-BRi22XDv.js"
 			],
 			"origins": [
 				"..\\..\\..\\vite.svg",
@@ -46,37 +41,22 @@
 			],
 			"interactivity": 2
 		},
-		"..\\assets\\app.tsx_App_component_Fragment_div_button_onClick_WLgS20WdhAI-C22kjNTD.js": {
-			"size": 147,
-			"total": 46101,
-			"imports": [
-				"..\\assets\\core.min-BPS5Icob.js"
-			],
-			"origins": [
-				"src\\app.tsx_App_component_Fragment_div_button_onClick_WLgS20WdhAI.js"
-			],
-			"symbols": [
-				"s_WLgS20WdhAI"
-			],
-			"interactivity": 5
-		},
-		"..\\assets\\core.min-BPS5Icob.js": {
-			"size": 45954,
-			"total": 45954,
+		"..\\assets\\core.min-BRi22XDv.js": {
+			"size": 45735,
+			"total": 45735,
 			"origins": [
 				"node_modules\\@builder.io\\qwik\\dist\\core.min.mjs"
 			],
 			"interactivity": 0
 		},
-		"..\\assets\\index-BrEHamsG.js": {
-			"size": 301,
-			"total": 47509,
+		"..\\assets\\index-B2m9TJS4.js": {
+			"size": 1484,
+			"total": 47219,
 			"imports": [
-				"..\\assets\\core.min-BPS5Icob.js",
-				"..\\assets\\preload-helper-CVfkMyKi.js"
+				"..\\assets\\core.min-BRi22XDv.js"
 			],
 			"dynamicImports": [
-				"..\\assets\\app.tsx_App_component_AkbU84a8zes-KkQ2dMKx.js"
+				"..\\assets\\app.tsx_App_component_AkbU84a8zes-B6s2oras.js"
 			],
 			"origins": [
 				"index.html",
@@ -85,11 +65,6 @@
 				"src\\index.css",
 				"src\\main.tsx"
 			],
-			"interactivity": 0
-		},
-		"..\\assets\\preload-helper-CVfkMyKi.js": {
-			"size": 1254,
-			"total": 1254,
 			"interactivity": 0
 		},
 		"..\\assets\\preloader-Bns9QiKi.js": {
@@ -117,26 +92,12 @@
 		"index.html": {
 			"size": 455
 		},
-		"assets/bundle-graph-Dh0o6Nwt.json": {
+		"assets/bundle-graph-I3XQvHTp.json": {
 			"name": "bundle-graph.json",
-			"size": 20
+			"size": 10
 		}
 	},
 	"symbols": {
-		"s_WLgS20WdhAI": {
-			"displayName": "app.tsx_App_component_Fragment_div_button_onClick",
-			"hash": "WLgS20WdhAI",
-			"ctxKind": "eventHandler",
-			"ctxName": "onClick$",
-			"captures": true,
-			"canonicalFilename": "app.tsx_App_component_Fragment_div_button_onClick_WLgS20WdhAI",
-			"parent": "s_AkbU84a8zes",
-			"origin": "app.tsx",
-			"loc": [
-				601,
-				620
-			]
-		},
 		"s_AkbU84a8zes": {
 			"displayName": "app.tsx_App_component",
 			"hash": "AkbU84a8zes",
@@ -146,8 +107,8 @@
 			"canonicalFilename": "app.tsx_App_component_AkbU84a8zes",
 			"origin": "app.tsx",
 			"loc": [
-				183,
-				778
+				187,
+				904
 			]
 		}
 	},
