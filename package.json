@@ -1,0 +1,28 @@
+{
+  "name": "mottie.github.io",
+  "homepage": "https://mottie.github.io/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "serve dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^24.10.1",
+    "serve": "^14.2.5",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.17.2",
+    "@emailjs/browser": "^4.4.1",
+    "gh-pages": "^6.3.0",
+    "motion": "^12.34.3"
+  }
+}
