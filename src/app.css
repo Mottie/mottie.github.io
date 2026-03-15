@@ -1,4 +1,4 @@
-#app {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -12,9 +12,7 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.qwik:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
-}
+
 .card {
   padding: 2em;
 }
